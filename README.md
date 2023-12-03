@@ -29,7 +29,7 @@ Features:
 ![4](./ddr_test_1.png)
 ![5](./ddr_test_2.png)
 
-We will attachment/expansion boards for this that come prefabbed with ports etc, while the base board is just a chiplet. TI comes with standard toolings for flashing these devices, no licenses or anything required. We'll have all of this process documented for you on a full release. 
+We will release attachment/expansion boards for this that come prefabbed with ports etc, while the base board is just a chiplet. TI comes with standard toolings for flashing these devices, no licenses or anything required. We'll have all of this process documented for you on a full release. 
 
 ## License:
 
