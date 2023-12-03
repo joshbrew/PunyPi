@@ -4,16 +4,6 @@ This is a standalone chiplet design that mounts the [TI AM625](https://www.ti.co
 
 This doesn't break out *every* feature of the AM625 but it does condense a fair amount to 30mm x 30mm on a 10 layer board. It works with standard throughole vias to help reduce PCB assembly costs. The Cortex A53 is getting older but is still one of the most popular industrial automation chips in the world and gives you good middle of the road performance - about that of a Samsung Galaxy S8 (EU edition) or Galaxy Watch 3. We're experimenting with microcomputers, servers, wearables, etc. and our best option was to design this base chiplet ourselves. 
 
-## Currently untested! Stay tuned!
-
-There's no BOM etc yet we're working on it.
-
-![1](./brd.png)
-![2](./brd3d.png)
-![3](./brd3d2.png)
-
-Files were produced in Altium. You can import the PcbDoc to KiCAD and we'll have ASCII exports for EAGLE soon. 
-
 Features:
 - 1x DDR4 up to 8Gb
 - 2x USB 2.0
@@ -25,6 +15,16 @@ Features:
 - 1x SD 3.0
 - UART, SPI, I2C, GPIO (and unused interfaces generally work as GPIO)
 - Can be powered by 3.3V supply (up to 4A) which may change.
+
+## Currently untested! Stay tuned!
+
+There's no BOM etc yet we're working on it.
+Files were produced in Altium. You can import the PcbDoc to KiCAD and we'll have ASCII exports for EAGLE soon. 
+
+![1](./brd.png)
+![2](./brd3d.png)
+![3](./brd3d2.png)
+
 
 ![4](./ddr_test_1.png)
 ![5](./ddr_test_2.png)
