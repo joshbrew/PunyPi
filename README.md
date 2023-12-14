@@ -18,8 +18,7 @@ Features:
 
 ## Currently untested! Stay tuned!
 
-There's no BOM etc yet we're working on it.
-Files were produced in Altium. You can import the PcbDoc to KiCAD and we'll have ASCII exports for EAGLE soon. 
+Files were produced in Altium. You can import the PcbDoc to KiCAD there is an ASCII exported version for EAGLE importing. Chiplet footprints forthcoming for easily creating mounts for the chiplet.
 
 ![1](./brd.png)
 ![2](./brd3d.png)
