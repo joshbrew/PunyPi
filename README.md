@@ -9,7 +9,7 @@ Features:
 - 2x USB 2.0
 - 1x LVDS screen (can bridge to HDMI) up to 1080p 60fps with up to Vulkan 1.2 support
 - 1x JTAG
-- 1x MCaSP Audio
+- 1x McASP Audio (4 channel)
 - 2x RGMII Ethernet
 - 1x MMC 5.1
 - 1x SD 3.0
@@ -43,4 +43,4 @@ Credits:
 
 ## Why
 
-This is a FULLY open source alternative to RPi Zero 2. Just pay it forward and contribue to FOSS and open hardware. We're working on getting a bulk order to make these devices available at competitive prices with standard expansion boards built to house our modular ARM + RAM chiplet. We were inspired by Arducam's similar attempt with an older chipset that never saw the light of day.
+This is a FULLY open source alternative to RPi Zero 2. Just pay it forward and contribute to FOSS and open hardware. We're working on getting a bulk order to make these devices available at competitive prices with standard expansion boards built to house our modular ARM + RAM chiplet. We were inspired by Arducam's similar attempt with an older chipset that never saw the light of day.
