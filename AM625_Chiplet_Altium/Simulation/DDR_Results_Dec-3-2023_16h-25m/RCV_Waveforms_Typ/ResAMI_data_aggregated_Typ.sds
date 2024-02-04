@@ -1,0 +1,464 @@
+
+(header
+ (version 1 0)
+ (properties 
+  (ddr "yes") 
+ ) 
+(field
+  (category General)
+  (type String)
+  (title "Net Name")
+  (subTitle "")
+)
+(field
+  (category General)
+  (type String)
+  (title "Pass/Fail")
+  (subTitle "")
+)
+(field
+  (category General)
+  (type String)
+  (title "Operation")
+  (subTitle "")
+)
+(field
+  (category General)
+  (type String)
+  (title "Driver Comp Ref Des & Pin Name")
+  (subTitle "")
+)
+(field
+  (category General)
+  (type String)
+  (title "Receiver Comp Ref Des & Pin Name")
+  (subTitle "")
+)
+(field
+  (category General)
+  (type String)
+  (title "Associated Strobe Net Name")
+  (subTitle "")
+)
+(field
+  (category General)
+  (type String)
+  (title "Eye-Mask")
+  (subTitle "Width, TdIVW_Total, [ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Eye-Mask")
+  (subTitle "Height, VdIVW_Total, [mV]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Voltage at Widest Eye Opening, Vcent, [mV]")
+  (subTitle "")
+)
+(field
+  (category General)
+  (type String)
+  (title "Average Center Voltage, Vcent(pin_mid), [mV]")
+  (subTitle "")
+)
+(field
+  (category General)
+  (type String)
+  (title "Output Delay Uncertainty, [ps]")
+  (subTitle "")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Setup Time")
+  (subTitle "Measured, [ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Setup Time")
+  (subTitle "Margin, [ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Setup Time")
+  (subTitle "Margin with Output Delay Uncertainty, [ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Setup Time")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Hold Time")
+  (subTitle "Measured, [ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Hold Time")
+  (subTitle "Margin, [ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Hold Time")
+  (subTitle "Margin with Output Delay Uncertainty, [ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Hold Time")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "VIHL_AC/2 Limit, [mV]")
+  (subTitle "")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Peak Above Vcent(pin mid)")
+  (subTitle "[mV]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Peak Above Vcent(pin mid)")
+  (subTitle "Margin, [mV]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Peak Above Vcent(pin mid)")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Peak Below Vcent(pin mid)")
+  (subTitle "[mV]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Peak Below Vcent(pin mid)")
+  (subTitle "Margin, [mV]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Peak Below Vcent(pin mid)")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Voltage Above Eye-Mask")
+  (subTitle "[mV]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Voltage Above Eye-Mask")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Voltage Below Eye-Mask")
+  (subTitle "[mV]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Voltage Below Eye-Mask")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Pulse Width")
+  (subTitle "[ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Pulse Width")
+  (subTitle "Limit, TdIPW, [ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Pulse Width")
+  (subTitle "Margin, [ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Pulse Width")
+  (subTitle "Margin with Output Delay Uncertainty, [ps]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Pulse Width")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Slew Rate")
+  (subTitle "[V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Slew Rate")
+  (subTitle "Limit, SRIN_dIVW_min, [V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Slew Rate")
+  (subTitle "Margin, [V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Slew Rate")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Max Slew Rate")
+  (subTitle "[V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Max Slew Rate")
+  (subTitle "Limit, SRIN_dIVW_max, [V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Max Slew Rate")
+  (subTitle "Margin, [V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Max Slew Rate")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Slew Rate (2)")
+  (subTitle "[V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Slew Rate (2)")
+  (subTitle "Limit, SRIN_dIVW_min, [V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Slew Rate (2)")
+  (subTitle "Margin, [V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Min Slew Rate (2)")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Max Slew Rate (2)")
+  (subTitle "[V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Max Slew Rate (2)")
+  (subTitle "Limit, SRIN_dIVW_max, [V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Max Slew Rate (2)")
+  (subTitle "Margin, [V/ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Max Slew Rate (2)")
+  (subTitle "Trace Point, [ns]")
+)
+(field
+  (category General)
+  (type String)
+  (title "Eye Mask Shape")
+  (subTitle "")
+)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ0-rcv-U2.G2-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ0" "Pass" "Write rank(1,1)" "U1.F4" "U2.G2" "DDR_LDQS_P" "83" "130" "537.014" "691.748" "6" "102.459" "60.8091" "54.8091" "39.1972" "198.236" "156.586" "150.586" "37.1149" "80" "509.941" "429.941" "53.358" "692.951" "612.951" "8.79252" "198.781" "44.612" "475.325" "44.1954" "369.721" "242" "128.151" "116.151" "9.20886" "3.77331" "1" "2.77331" "37.1149" "6.65856" "9" "2.34144" "36.282" "3.51361" "0.774555" "2.73905" "44.612" "7.01569" "9" "1.98431" "17.5393" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ1-rcv-U2.F7-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ1" "Pass" "Write rank(1,1)" "U1.H6" "U2.F7" "DDR_LDQS_P" "83" "130" "530.218" "691.748" "6" "105.459" "63.8087" "57.8087" "28.3687" "197.523" "155.873" "149.873" "2.54518" "80" "472.818" "392.818" "37.1149" "695.578" "615.578" "7.54287" "235.575" "28.3687" "498.427" "42.9461" "373.774" "242" "132.204" "120.204" "7.9595" "3.96374" "1" "2.96374" "27.9524" "7.28557" "9" "1.71443" "41.6963" "3.95634" "0.79802" "3.15832" "43.3624" "7.35956" "9" "1.64044" "42.1131" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ10-rcv-U2.C3-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ10" "Pass" "Write rank(1,1)" "U1.U2" "U2.C3" "DDR_UDQS_P" "83" "130" "534.552" "691.748" "6" "80.7937" "39.1437" "33.1437" "39.5866" "220.382" "178.732" "172.732" "10.0147" "80" "512.127" "432.127" "24.1765" "696.776" "616.776" "17.929" "175.608" "39.5866" "505.455" "47.9166" "374.631" "242" "133.061" "121.061" "53.7474" "3.17939" "1" "2.17939" "10.0147" "7.62779" "9" "1.37221" "46.2507" "4.22187" "0.870172" "3.3517" "39.5866" "7.27358" "9" "1.72642" "47.0837" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ11-rcv-U2.C7-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ11" "Pass" "Write rank(1,1)" "U1.V5" "U2.C7" "DDR_UDQS_P" "83" "130" "528.28" "691.748" "6" "89.0578" "47.4078" "41.4078" "23.3435" "219.774" "178.124" "172.124" "32.9231" "80" "488.491" "408.491" "40.4195" "694.959" "614.959" "15.4298" "196.302" "23.3435" "495.335" "54.1637" "369.289" "242" "127.719" "115.719" "40.4195" "4.03958" "1" "3.03958" "32.9231" "7.44427" "9" "1.55573" "52.9145" "4.47041" "0.918189" "3.55222" "40.4195" "7.39941" "9" "1.60059" "53.3308" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ12-rcv-U2.C2-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ12" "Pass" "Write rank(1,1)" "U1.W2" "U2.C2" "DDR_UDQS_P" "83" "130" "522.83" "691.748" "6" "83.1553" "41.5053" "35.5053" "17.5123" "211.546" "169.896" "163.896" "13.3471" "80" "516.756" "436.756" "6.68276" "699.195" "619.195" "39.17" "181.84" "17.5123" "518.641" "22.0942" "368.448" "242" "126.878" "114.878" "11.2645" "2.95001" "1" "1.95001" "13.3471" "7.79214" "9" "1.20786" "4.18392" "4.59944" "0.842709" "3.75673" "17.5123" "8.11068" "9" "0.889318" "4.60056" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ13-rcv-U2.C8-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ13" "Pass" "Write rank(1,1)" "U1.V6" "U2.C8" "DDR_UDQS_P" "83" "130" "535.01" "691.748" "6" "84.7163" "43.0663" "37.0663" "5.01691" "216.284" "174.634" "168.634" "2.93456" "80" "491.881" "411.881" "48.7496" "696.166" "616.166" "7.09936" "181.719" "5.01691" "493.55" "48.333" "366.454" "242" "124.884" "112.884" "5.01691" "3.29735" "1" "2.29735" "2.93456" "7.75756" "9" "1.24244" "52.9145" "4.44643" "0.859769" "3.58666" "5.01691" "7.81797" "9" "1.18203" "53.3308" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ14-rcv-U2.D3-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ14" "Pass" "Write rank(1,1)" "U1.Y1" "U2.D3" "DDR_UDQS_P" "83" "130" "523.002" "691.748" "6" "66.805" "25.155" "19.155" "24.1765" "222.98" "181.33" "175.33" "47.0837" "80" "490.156" "410.156" "51.6649" "666.093" "586.093" "50.4156" "174.154" "12.514" "364.584" "4.18392" "383.014" "242" "141.444" "129.444" "3.76757" "3.09268" "1" "2.09268" "47.0837" "6.3806" "9" "2.6194" "33.7561" "4.43281" "0.945227" "3.48758" "27.5087" "6.69305" "9" "2.30695" "34.589" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ15-rcv-U2.D7-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ15" "Pass" "Write rank(1,1)" "U1.W1" "U2.D7" "DDR_UDQS_P" "83" "130" "530.667" "691.748" "6" "80.0666" "38.4166" "32.4166" "39.17" "219.736" "178.086" "172.086" "34.1724" "80" "510.368" "430.368" "30.4244" "690.537" "610.537" "53.3308" "177.098" "2.93456" "476.506" "9.59837" "365.978" "242" "124.408" "112.408" "39.17" "2.95386" "1" "1.95386" "34.1724" "7.21426" "9" "1.78574" "16.2629" "4.40333" "0.914939" "3.48839" "40.4195" "7.57062" "9" "1.42938" "16.6792" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ2-rcv-U2.H3-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ2" "Pass" "Write rank(1,1)" "U1.E3" "U2.H3" "DDR_LDQS_P" "83" "130" "525.879" "691.748" "6" "94.0583" "52.4083" "46.4083" "48.3602" "208.46" "166.81" "160.81" "37.9479" "80" "474.029" "394.029" "11.708" "690.223" "610.223" "28.3687" "219.415" "11.708" "510.255" "54.1909" "368.85" "242" "127.28" "115.28" "11.708" "3.94815" "1" "2.94815" "1.71211" "7.3628" "9" "1.6372" "53.358" "4.0124" "0.834772" "3.17763" "49.6098" "7.39011" "9" "1.60989" "18.3723" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ3-rcv-U2.H7-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ3" "Pass" "Write rank(1,1)" "U1.F3" "U2.H7" "DDR_LDQS_P" "83" "130" "517.338" "691.748" "6" "100.074" "58.4238" "52.4238" "12.9578" "203.477" "161.827" "155.827" "5.04411" "80" "475.555" "395.555" "7.9595" "693.184" "613.184" "39.6138" "229.655" "12.9578" "542.368" "21.2881" "365.72" "242" "124.15" "112.15" "7.9595" "4.12493" "1" "3.12493" "12.5411" "7.31986" "9" "1.68014" "4.21112" "4.08922" "0.824986" "3.26423" "12.9578" "7.34951" "9" "1.65049" "4.62779" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ4-rcv-U2.H2-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ4" "Pass" "Write rank(1,1)" "U1.F1" "U2.H2" "DDR_LDQS_P" "83" "130" "522.376" "691.748" "6" "95.038" "53.388" "47.388" "9.62555" "210.08" "168.43" "162.43" "42.9461" "80" "488.575" "408.575" "7.12659" "688.415" "608.415" "24.2035" "222.98" "53.7746" "519.381" "25.0366" "366.323" "242" "124.753" "112.753" "7.12659" "3.98381" "1" "2.98381" "42.9461" "6.66057" "9" "2.33943" "50.0261" "3.9757" "0.853788" "3.12191" "53.7746" "6.8607" "9" "2.1393" "50.4428" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ5-rcv-U2.H8-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ5" "Pass" "Write rank(1,1)" "U1.G5" "U2.H8" "DDR_LDQS_P" "83" "130" "540.112" "691.748" "6" "115.763" "74.1134" "68.1134" "41.6963" "196.189" "154.539" "148.539" "42.1131" "80" "462.045" "382.045" "47.1109" "692.721" "612.721" "20.8715" "202.244" "32.1173" "445.592" "10.4586" "365.016" "242" "123.446" "111.446" "47.1109" "4.18545" "1" "3.18545" "46.6943" "7.26964" "9" "1.73036" "31.2843" "3.74237" "0.837089" "2.90528" "47.1109" "7.14124" "9" "1.85876" "26.7026" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ6-rcv-U2.J3-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ6" "Pass" "Write rank(1,1)" "U1.G2" "U2.J3" "DDR_LDQS_P" "83" "130" "524.565" "691.748" "6" "104.906" "63.2559" "57.2559" "5.46078" "204.889" "163.239" "157.239" "24.2035" "80" "472.149" "392.149" "8.79252" "692.755" "612.755" "39.1972" "230.299" "45.8613" "519.81" "45.445" "365.899" "242" "124.329" "112.329" "8.79252" "4.339" "1" "3.339" "24.2035" "6.86977" "9" "2.13023" "52.9417" "4.15774" "0.920258" "3.23748" "45.8613" "6.88995" "9" "2.11005" "23.7872" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ7-rcv-U2.J7-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ7" "Pass" "Write rank(1,1)" "U1.F2" "U2.J7" "DDR_LDQS_P" "83" "130" "542.96" "691.748" "6" "91.6325" "49.9825" "43.9825" "36.282" "219.64" "177.99" "171.99" "17.956" "80" "484.386" "404.386" "41.6963" "682.58" "602.58" "17.1229" "218.101" "10.0419" "487.812" "40.8631" "370.424" "242" "128.854" "116.854" "20.8715" "4.16403" "1" "3.16403" "9.62555" "7.10925" "9" "1.89075" "51.6921" "4.0384" "0.832806" "3.20559" "10.0419" "7.10472" "9" "1.89528" "52.1088" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ8-rcv-U2.A3-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ8" "Pass" "Write rank(1,1)" "U1.U1" "U2.A3" "DDR_UDQS_P" "83" "130" "519.842" "691.748" "6" "75.8127" "34.1627" "28.1627" "13.3471" "221.379" "179.729" "173.729" "23.7603" "80" "511.35" "431.35" "22.5105" "677.633" "597.633" "35.0053" "153.848" "17.929" "397.943" "38.7536" "366.927" "242" "125.357" "113.357" "48.333" "3.0051" "1" "2.0051" "23.7603" "7.31527" "9" "1.68473" "37.5041" "4.08578" "0.60102" "3.48476" "24.1765" "7.06472" "9" "1.93528" "45.8341" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_DQ9-rcv-U2.B8-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_DQ9" "Pass" "Write rank(1,1)" "U1.U3" "U2.B8" "DDR_UDQS_P" "83" "130" "526.48" "691.748" "6" "83.9653" "42.3153" "36.3153" "4.18392" "207.508" "165.858" "159.858" "34.589" "80" "502.471" "422.471" "36.6711" "697.051" "617.051" "54.9966" "181.237" "4.18392" "519.784" "28.7585" "369.883" "242" "128.313" "116.313" "36.6711" "2.84012" "1" "1.84012" "34.589" "7.50398" "9" "1.49602" "20.0115" "4.14252" "0.585018" "3.5575" "9.59837" "7.69356" "9" "1.30644" "20.4282" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_LDM-rcv-U2.E7-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_LDM" "Pass" "Write rank(1,1)" "U1.H5" "U2.E7" "DDR_LDQS_P" "83" "130" "861.305" "691.748" "6" "90.8091" "49.1591" "43.1591" "53.7746" "139.181" "97.5312" "91.5312" "12.9578" "80" "506.565" "426.565" "4.21112" "177.973" "97.9727" "27.5357" "405.492" "22.9542" "47.4996" "45.0283" "325.358" "242" "83.7877" "71.7877" "31.2843" "1.23795" "1" "0.237954" "23.7872" "4.60232" "9" "4.39768" "8.79252" "0.981534" "0.297025" "0.684509" "13.7908" "5.72936" "9" "3.27064" "46.2779" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+
+(simData
+(tps "ResAMI-net-DDR_UDM-rcv-U2.E2-W1.tps")
+(failed False)
+(eyeMask 40 40 60 60 -0.4 0.626748 0.691748 0.756748 1.6 )
+(values  "DDR_UDM" "Pass" "Write rank(1,1)" "U1.W5" "U2.E2" "DDR_UDQS_P" "83" "130" "866.158" "691.748" "6" "73.9001" "32.2501" "26.2501" "40.0029" "172.104" "130.454" "124.454" "20.8445" "80" "508" "428" "35.8382" "178.505" "98.5052" "6.26647" "412.012" "51.2486" "37.2058" "3.76757" "300.163" "242" "58.5934" "46.5934" "32.0902" "1.6776" "1" "0.677605" "52.0816" "6.10397" "9" "2.89603" "31.2573" "1.18866" "0.33919" "0.849466" "30.8406" "6.10711" "9" "2.89289" "31.6736" "Eye-Rectangle")
+(valueFailed False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False False)
+)
+

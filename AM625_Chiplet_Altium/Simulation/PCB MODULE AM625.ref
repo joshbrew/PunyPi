@@ -1,0 +1,39 @@
+*
+* RefDes model auto-assign file *
+*
+U1, AM625.ibs, AM62
+U2, MT40A512M16LY.ibs, MT40A512M16LY
+R1, 1.0K ohms
+R2, 1.0K ohms
+R3, 39.2ohms
+R4, 39.2ohms
+C1, 10.0nF
+R5, 240.0ohms
+R8, 240.0ohms
+FL1, 0.0ohms
+C2, 100.0nF
+C3, 100.0nF
+C4, 2.0uF
+C5, 10.0nF
+C6, 10.0nF
+C7, 10.0nF
+C8, 10.0nF
+C9, 22.0nF
+C10, 100.0nF
+R6, 1.0K ohms
+R7, 1.0K ohms
+C20, 100.0nF
+C21, 100.0nF
+C19, 100.0nF
+R10, 10.0K ohms
+R11, 10.0K ohms
+R9, 1.0K ohms
+R12, 1.0K ohms
+C11, 10.0nF
+C12, 10.0nF
+C13, 10.0nF
+C14, 10.0nF
+C15, 10.0nF
+C16, 10.0nF
+C17, 10.0nF
+C18, 10.0nF

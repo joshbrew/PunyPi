@@ -1,0 +1,212 @@
+Board Information Report
+Filename     : D:\HUST\02.OS\02.Project Board module Am625_20h_1911\PCB\PCB MODULE AM625.PcbDoc
+Date         : 11/26/2023
+Time         : 6:46:31 PM
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 32.5mmx31.2mm
+    Components on board, 227
+count : 2
+
+Routing Information
+    Routing completion, 95.84%
+    Connections, 913
+    Connections routed, 875
+    Connections remaining, 38
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Signal TOP, 2, 889, 0, 1834, 0, 0, 15, 0
+    Ground Plane 1 (GND), 0, 0, 0, 5, 0, 0, 1, 0
+    Signal RAM 1, 0, 0, 0, 427, 0, 0, 2, 0
+    POWER 1, 0, 0, 0, 0, 0, 0, 5, 0
+    Signal IO 1, 0, 0, 0, 343, 0, 0, 3, 0
+    Signal IO 2, 0, 0, 0, 446, 0, 0, 0, 0
+    POWER 2, 0, 0, 0, 2, 0, 0, 3, 0
+    Signal RAM 2, 0, 0, 0, 492, 0, 0, 1, 0
+    Ground Plane 2 (GND), 0, 0, 0, 5, 0, 0, 1, 0
+    Signal Bottom, 0, 248, 0, 687, 0, 0, 0, 0
+    Mechanical 1, 0, 0, 0, 0, 0, 0, 0, 223
+    Mechanical 13, 0, 0, 0, 100, 0, 0, 0, 0
+    Mechanical 15, 0, 0, 0, 82, 0, 0, 0, 0
+    Mechanical 29, 0, 0, 0, 0, 213, 0, 0, 0
+    Mechanical 19, 0, 0, 0, 0, 0, 0, 0, 0
+    Multi-Layer, 0, 135, 416, 0, 0, 0, 1, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 4, 0, 0, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Paste, 0, 0, 0, 0, 0, 0, 9, 0
+    Top Overlay, 8, 0, 0, 44, 342, 0, 0, 0
+    Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Overlay, 0, 0, 0, 0, 112, 0, 0, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+count : 25
+
+Drill Pairs, Vias
+    Signal TOP - Signal Bottom, 416
+count : 1
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Signal TOP, 0.541, 348.996, 34%
+    Ground Plane 1 (GND), 1.395, 900.218, 89%
+    Signal RAM 1, 0.403, 259.774, 26%
+    POWER 1, 0.875, 564.721, 56%
+    Signal IO 1, 0.344, 221.708, 22%
+    Signal IO 2, 0.277, 178.919, 18%
+    POWER 2, 1.062, 685.188, 68%
+    Signal RAM 2, 0.309, 199.224, 20%
+    Ground Plane 2 (GND), 1.395, 900.218, 89%
+    Signal Bottom, 0.414, 266.901, 26%
+count : 10
+
+Non-Plated Hole Size, Pads, Vias
+    0mm, 567, 0
+count : 1
+
+Plated Hole Size, Pads, Vias
+    0mm, 570, 0
+    0.2mm, 0, 386
+    0.25mm, 0, 30
+    0.4mm, 134, 0
+    0.5mm, 1, 0
+count : 5
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+count : 0
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    0.2mm, 386
+    0.3mm, 1
+    0.35mm, 30
+    0.4mm, 134
+count : 4
+
+Mid Layer Annular Ring Size, Count
+    0.2mm, 386
+    0.3mm, 1
+    0.35mm, 30
+    0.4mm, 134
+count : 4
+
+Bottom Layer Annular Ring Size, Count
+    0.2mm, 386
+    0.3mm, 1
+    0.35mm, 30
+    0.4mm, 134
+count : 4
+
+Pad Solder Mask, Count
+    0mm, 37
+    0.04mm, 262
+    0.05mm, 425
+    0.0508mm, 11
+    0.1016mm, 537
+count : 5
+
+Pad Paste Mask, Count
+    -1000mm, 1
+    -0.635mm, 11
+    0mm, 1260
+count : 3
+
+Pad Pwr/Gnd Expansion, Count
+    0.1mm, 1272
+count : 1
+
+Pad Relief Conductor Width, Count
+    0.254mm, 1272
+count : 1
+
+Pad Relief Air Gap, Count
+    0.254mm, 1272
+count : 1
+
+Pad Relief Entries, Count
+    4, 1272
+count : 1
+
+Via Solder Mask, Count
+    0.1016mm, 416
+count : 1
+
+Via Pwr/Gnd Expansion, Count
+    0.1mm, 416
+count : 1
+
+Track Width, Count
+    0.05mm, 81
+    0.08mm, 1291
+    0.09mm, 51
+    0.0965mm, 44
+    0.099mm, 52
+    0.0991mm, 28
+    0.1mm, 932
+    0.1016mm, 568
+    0.104mm, 2
+    0.1041mm, 94
+    0.1092mm, 7
+    0.114mm, 6
+    0.1168mm, 468
+    0.12mm, 208
+    0.1219mm, 20
+    0.13mm, 488
+    0.15mm, 27
+    0.182mm, 3
+    0.2mm, 73
+    0.254mm, 8
+    0.3mm, 8
+    0.4561mm, 2
+    1.016mm, 10
+count : 23
+
+Arc Line Width, Count
+    0.08mm, 2
+    0.1mm, 2
+    0.2mm, 4
+    0.25mm, 2
+count : 4
+
+Arc Radius, Count
+    0.05mm, 2
+    0.1mm, 4
+    0.125mm, 2
+    0.7454mm, 1
+    1.1729mm, 1
+count : 5
+
+Arc Degrees, Count
+    17, 1
+    45, 1
+    180, 4
+    360, 4
+count : 4
+
+Text Height, Count
+    1mm, 196
+    1.524mm, 458
+    3mm, 13
+count : 3
+
+Text Width, Count
+    0.254mm, 667
+count : 1
+
+Net Track Width, Count
+    0.09mm, 230
+    0.254mm, 30
+count : 2
+
+Net Via Size, Count
+    0.6mm, 260
+count : 1

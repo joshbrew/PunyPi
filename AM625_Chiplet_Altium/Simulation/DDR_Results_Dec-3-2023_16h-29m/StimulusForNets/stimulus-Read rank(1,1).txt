@@ -1,0 +1,16 @@
+U2.G2,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ0.eds,0
+U2.F7,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ1.eds,0
+U2.C3,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ10.eds,0
+U2.C7,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ11.eds,0
+U2.C2,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ12.eds,0
+U2.C8,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ13.eds,0
+U2.D3,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ14.eds,0
+U2.D7,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ15.eds,0
+U2.H3,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ2.eds,0
+U2.H7,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ3.eds,0
+U2.H2,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ4.eds,0
+U2.H8,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ5.eds,0
+U2.J3,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ6.eds,0
+U2.J7,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ7.eds,0
+U2.A3,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ8.eds,0
+U2.B8,C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-29m\StimulusForNets\DDR_DQ9.eds,0

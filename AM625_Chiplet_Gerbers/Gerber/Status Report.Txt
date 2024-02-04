@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [Project Board Module AM625.PrjPCB]
+   Generated File[Pick Place for PCB MODULE AM625.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:05:41 AM On 2/3/2024

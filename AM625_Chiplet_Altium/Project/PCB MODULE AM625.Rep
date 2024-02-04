@@ -1,0 +1,207 @@
+Export log for : PCB MODULE AM625.Rep
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+AddingPadStyle (Default)
+AddingPadStyle EF12X12TOP1
+AddingPadStyle EF20X24TOP1
+AddingPadStyle EF28X26TOP1
+AddingPadStyle EF31X63BOT1
+AddingPadStyle EF39X39BOT1
+AddingPadStyle P:EX31Y31D161
+AddingPadStyle P:EX31Y31D201
+AddingPadStyle EF75X43TOP1
+AddingPadStyle EF30X28TOP1
+AddingPadStyle EF25X25TOP1
+AddingPadStyle EF23X47TOP1
+AddingPadStyle EF104X43TOP1
+AddingPadStyle EF47X24TOP1
+AddingPadStyle EF28X12TOP1
+AddingPadStyle EF67X39TOP1
+AddingPadStyle EF20X16TOP1
+AddingPadStyle EF31X31TOP1
+AddingPadStyle EF20X20TOP1
+AddingPadStyle EF35X51TOP1
+AddingPadStyle EF146X146TOP1
+AddingPadStyle EF10X24TOP1
+AddingPadStyle EF24X10TOP1
+AddingPadStyle EF17X17TOP1
+AddingPadStyle EF11X11TOP1
+Adding ViaStyle (Default)
+Adding ViaStyle V:EX16Y16D81
+Adding ViaStyle V:EX24Y24D101
+Adding TextStyle (Default)
+Adding TextStyle T:H39W10
+Adding TextStyle T:H60W10
+Adding TextStyle T:H118W10
+Adding PatternDef C0201_1
+Adding PatternDef R0402_1
+Adding PatternDef BLM18EG101TH1D_1
+Adding PatternDef PIN_OUT AM625 - 136PIN_1
+Adding PatternDef ECS327934QSTR_1
+Adding PatternDef XRCGB25M000F3M00R0_1
+Adding PatternDef TP_25C_1
+Adding PatternDef TP_25C_2
+Adding PatternDef R0201_1
+Adding PatternDef FP-TFM201208BLE-R47MTCF_0805-MFG_1
+Adding PatternDef INDC3225X20N_1
+Adding PatternDef SOT95P280X145-5N_1
+Adding PatternDef SON50P200X200X80-9N_1
+Adding PatternDef NFZ15SG152SN10B_1
+Adding PatternDef BLM18EG101TH1D_2
+Adding PatternDef C0603_1
+Adding PatternDef C0402_1
+Adding PatternDef C0805_1
+Adding PatternDef 32-VQFN (5x5)_1
+Adding PatternDef BGA96C80P9X16_750X1350X120_1
+Adding PatternDef BGA425C50P25X25_1300X1300X89_1
+Adding PatternDef C0201_2
+Adding CompDef C0201_1
+Adding CompDef R0402_1
+Adding CompDef BLM18EG101TH1D_1
+Adding CompDef PIN_OUT AM625 - 136PIN_1
+Adding CompDef ECS327934QSTR_1
+Adding CompDef XRCGB25M000F3M00R0_1
+Adding CompDef TP_25C_1
+Adding CompDef TP_25C_2
+Adding CompDef R0201_1
+Adding CompDef FP-TFM201208BLE-R47MTCF_0805-MFG_1
+Adding CompDef INDC3225X20N_1
+Adding CompDef SOT95P280X145-5N_1
+Adding CompDef SON50P200X200X80-9N_1
+Adding CompDef NFZ15SG152SN10B_1
+Adding CompDef BLM18EG101TH1D_2
+Adding CompDef C0603_1
+Adding CompDef C0402_1
+Adding CompDef C0805_1
+Adding CompDef 32-VQFN (5x5)_1
+Adding CompDef BGA96C80P9X16_750X1350X120_1
+Adding CompDef BGA425C50P25X25_1300X1300X89_1
+Adding CompDef C0201_2
+      Warning: Net DDR_DQ0 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ1 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ2 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ3 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ4 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ5 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ6 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ7 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ8 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ9 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ10 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ11 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ12 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ13 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ14 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_DQ15 already belongs to a NetClass and has not been added to NetClass DDR_DQ[15..0]
+      Warning: Net DDR_A0 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A1 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A2 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A3 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A4 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A5 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A6 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A7 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A8 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A9 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A10 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A11 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A12 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net DDR_A13 already belongs to a NetClass and has not been added to NetClass DDR_A[13..0]
+      Warning: Net OLDI0_A0_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A0_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A1_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A1_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A2_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A2_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A3_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A3_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A4_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A4_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A5_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A5_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A6_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A6_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A7_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_A7_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_CLK0_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_CLK0_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_CLK1_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net OLDI0_CLK1_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net DDR_CLK_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net DDR_CLK_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net DDR_LDQS_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net DDR_LDQS_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net DDR_UDQS_N already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net DDR_UDQS_P already belongs to a NetClass and has not been added to NetClass DIFF100
+      Warning: Net USB0_N already belongs to a NetClass and has not been added to NetClass DIFF90
+      Warning: Net USB0_P already belongs to a NetClass and has not been added to NetClass DIFF90
+      Warning: Net USB1_N already belongs to a NetClass and has not been added to NetClass DIFF90
+      Warning: Net USB1_P already belongs to a NetClass and has not been added to NetClass DIFF90
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+ 
+EndLog

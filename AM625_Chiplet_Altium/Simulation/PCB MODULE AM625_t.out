@@ -1,0 +1,3764 @@
+
+ HyperLynx Thermal VX.2.10
+
+ ** File Name: C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\PCB MODULE AM625_t
+
+
+
+
+
+           ***  Summary of  Analysis  *** 
+
+
+
+     Air Flow comes from (see side 1)Bottom
+     Forced Air V, side 1    mm/s     1000
+                   side 2,   mm/s     1000
+     Incoming Air Temp.      C        20.0
+     Air Pressure,           mmHg      760
+     Air Humidity Ratio                0.5
+     Gravity, g                       1.00
+
+     System total Open 0, Close 1,   
+      only front open 2, back open 3    0
+     Gravity Direction    -Z
+     Board Space side 1      mm       20.0
+                 side 2      mm       20.0
+     Adj. Board Power side 1 W        10.0
+                      side 2 W        10.0
+     Adj. Wall Temp.  side 1 C          25
+           (if used)  side 2 C          25
+     Emissivity of this board         0.65
+     Emiss. Adj. Wall side 1          0.65
+                      side 2          0.65
+     Board Location, 0, .5, 1, 1.5     1.0
+     (0=test, .5=left,1=in,1.5=right)
+     Channel 1 One-sided (0.0)          0
+
+     Board Thickness Total   mm       1.56
+Thickness signal layer Signal_TOP mm         0.040
+Thickness dielectric layer DE_Signal_TOP mm     0.072
+Thickness plane layer Ground_Plane_1_(GND) mm          0.015
+Thickness dielectric layer DE_Ground_Plane_1_(GND) mm     0.100
+Thickness signal layer Signal_RAM_1 mm         0.015
+Thickness dielectric layer DE_Signal_RAM_1 mm     0.201
+Thickness signal layer POWER_1 mm         0.015
+Thickness dielectric layer DE_POWER_1 mm     0.100
+Thickness signal layer Signal_IO_1 mm         0.015
+Thickness dielectric layer DE_Signal_IO_1 mm     0.416
+Thickness signal layer Signal_IO_2 mm         0.015
+Thickness dielectric layer DE_Signal_IO_2 mm     0.100
+Thickness signal layer POWER_2 mm         0.015
+Thickness dielectric layer DE_POWER_2 mm     0.202
+Thickness signal layer Signal_RAM_2 mm         0.015
+Thickness dielectric layer DE_Signal_RAM_2 mm     0.100
+Thickness plane layer Ground_Plane_2_(GND) mm          0.015
+Thickness dielectric layer DE_Ground_Plane_2_(GND) mm     0.072
+Thickness signal layer Signal_Bottom mm         0.040
+               Base Mat. Cond. W/mmC    0.00030
+           Wire Conductivity W/mmC      0.39369
+     Typical Metal Vol. Fraction        0.07710
+     Typical Average Conduct.  W/mmC    0.03063
+
+
+     Board Width (xmax)      mm         33
+     Board Length (ymax)     mm         31
+     Mesh Maximum Width      mm        0.4
+     Mesh Maximum Length     mm        0.4
+     Total Regular Mesh No. in X        80
+     Total Regular Mesh No. in Y        80
+
+
+
+     Boundary Conditions at edges of Board:
+     Anywhere not listed, is insulated edge.
+
+      side  X/Y mm.  resist(C-mm/W)  SINK C 
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C14  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C15  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C16  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C17  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C18  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C59  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C62  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C66  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C69  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C72  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C75  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C78  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C81  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C84  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C90  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    U1  PIN1 at X,Y inch   0.2   0.2
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    U2  PIN1 at X,Y inch   0.1   0.2
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   IC1  PIN1 at X,Y inch   0.1   0.1
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    C1  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    C2  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    C3  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    C4  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    C5  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    C6  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    C7  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    C8  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    C9  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C10  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C11  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C12  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C13  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C19  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C20  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C21  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C22  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C23  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C24  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C25  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C26  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C27  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C28  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C29  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C30  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C31  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C32  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C33  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C34  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C35  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C36  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C37  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C38  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C39  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C40  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C41  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C42  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C43  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C44  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C45  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C46  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C47  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C60  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C63  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C67  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C70  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C73  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C76  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C79  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C82  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C85  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C87  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C88  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   C89  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  C104  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  C105  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  C114  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  C115  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  C120  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  C121  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  C122  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  C127  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  C128  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   FL1  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   FL2  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   FL3  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   FL4  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   FL5  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   FL6  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   FL7  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   FL8  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  FL10  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  FL11  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  FL12  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  FL13  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   IC2  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   IC3  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    L1  PIN1 at X,Y inch   0.1   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    L2  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    L3  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    R1  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    R2  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    R3  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    R4  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    R5  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    R6  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    R7  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    R8  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    R9  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R10  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R11  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R12  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R13  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R16  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R17  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R18  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R19  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R20  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R21  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R22  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R23  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R24  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R25  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R26  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R27  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R28  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R29  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R30  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R31  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R32  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R33  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R34  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R35  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R36  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R37  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R38  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R39  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R40  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R41  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R42  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R43  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R44  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R45  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R46  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R47  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R48  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R49  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R50  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R52  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R51  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R53  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R54  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R55  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R56  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R57  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R58  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   TP1  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   TP2  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   TP3  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   TP4  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   TP5  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   TP6  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   TP7  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   TP8  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   TP9  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  TP10  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  TP11  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    Y1  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF    Y2  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C14 at X,Y inch   1.4   1.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C15 at X,Y inch   1.4   1.2
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C16 at X,Y inch   1.5   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C17 at X,Y inch   1.4   1.2
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C18 at X,Y inch   1.4   1.1
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C59 at X,Y inch   0.7   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C62 at X,Y inch   1.8   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C66 at X,Y inch   0.9   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C69 at X,Y inch   0.9   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C72 at X,Y inch   0.7   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C75 at X,Y inch   1.7   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C78 at X,Y inch   0.7   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C81 at X,Y inch   0.9   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C84 at X,Y inch   1.8   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C90 at X,Y inch   1.5   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    U1 at X,Y inch   0.8   0.8
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    U2 at X,Y inch   1.5   0.8
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   IC1 at X,Y inch   1.1   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    C1 at X,Y inch   1.8   1.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    C2 at X,Y inch   1.4   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    C3 at X,Y inch   1.8   0.8
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    C4 at X,Y inch   0.9   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    C5 at X,Y inch   1.8   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    C6 at X,Y inch   1.8   1.2
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    C7 at X,Y inch   1.8   1.2
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    C8 at X,Y inch   1.8   1.1
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    C9 at X,Y inch   1.8   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C10 at X,Y inch   1.8   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C11 at X,Y inch   1.8   1.1
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C12 at X,Y inch   1.7   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C13 at X,Y inch   1.8   1.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C19 at X,Y inch   1.4   1.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C20 at X,Y inch   1.8   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C21 at X,Y inch   1.8   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C22 at X,Y inch   1.6   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C23 at X,Y inch   1.6   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C24 at X,Y inch   1.4   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C25 at X,Y inch   1.4   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C26 at X,Y inch   1.1   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C27 at X,Y inch   1.2   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C28 at X,Y inch   1.3   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C29 at X,Y inch   1.4   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C30 at X,Y inch   1.1   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C31 at X,Y inch   0.9   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C32 at X,Y inch   0.9   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C33 at X,Y inch   1.4   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C34 at X,Y inch   0.9   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C35 at X,Y inch   0.9   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C36 at X,Y inch   0.9   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C37 at X,Y inch   0.9   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C38 at X,Y inch   1.1   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C39 at X,Y inch   1.5   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C40 at X,Y inch   1.7   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C41 at X,Y inch   1.7   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C42 at X,Y inch   1.7   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C43 at X,Y inch   1.5   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C44 at X,Y inch   1.1   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C45 at X,Y inch   1.2   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C46 at X,Y inch   1.4   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C47 at X,Y inch   1.6   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C60 at X,Y inch   0.7   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C63 at X,Y inch   1.8   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C67 at X,Y inch   0.9   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C70 at X,Y inch   0.9   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C73 at X,Y inch   0.7   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C76 at X,Y inch   1.7   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C79 at X,Y inch   0.7   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C82 at X,Y inch   0.9   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C85 at X,Y inch   1.8   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C87 at X,Y inch   0.7   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C88 at X,Y inch   1.6   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   C89 at X,Y inch   1.5   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  C104 at X,Y inch   1.5   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  C105 at X,Y inch   1.5   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  C114 at X,Y inch   1.3   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  C115 at X,Y inch   1.3   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  C120 at X,Y inch   0.8   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  C121 at X,Y inch   0.9   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  C122 at X,Y inch   0.9   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  C127 at X,Y inch   1.7   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  C128 at X,Y inch   1.7   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   FL1 at X,Y inch   0.9   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   FL2 at X,Y inch   0.7   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   FL3 at X,Y inch   1.7   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   FL4 at X,Y inch   1.3   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   FL5 at X,Y inch   0.8   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   FL6 at X,Y inch   0.8   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   FL7 at X,Y inch   1.7   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   FL8 at X,Y inch   0.7   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  FL10 at X,Y inch   0.7   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  FL11 at X,Y inch   1.8   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  FL12 at X,Y inch   0.8   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  FL13 at X,Y inch   0.7   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   IC2 at X,Y inch   1.5   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   IC3 at X,Y inch   1.5   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    L1 at X,Y inch   1.4   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    L2 at X,Y inch   1.2   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    L3 at X,Y inch   1.1   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    R1 at X,Y inch   1.8   0.8
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    R2 at X,Y inch   1.8   0.8
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    R3 at X,Y inch   1.8   1.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    R4 at X,Y inch   1.8   0.9
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    R5 at X,Y inch   1.4   1.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    R6 at X,Y inch   1.8   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    R7 at X,Y inch   1.8   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    R8 at X,Y inch   1.8   1.1
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    R9 at X,Y inch   1.8   0.8
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R10 at X,Y inch   1.8   0.9
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R11 at X,Y inch   1.8   0.8
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R12 at X,Y inch   1.8   0.9
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R13 at X,Y inch   1.8   1.2
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R16 at X,Y inch   1.8   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R17 at X,Y inch   1.8   1.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R18 at X,Y inch   0.9   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R19 at X,Y inch   1.3   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R20 at X,Y inch   1.2   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R21 at X,Y inch   1.2   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R22 at X,Y inch   1.3   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R23 at X,Y inch   1.3   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R24 at X,Y inch   1.2   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R25 at X,Y inch   1.1   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R26 at X,Y inch   1.0   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R27 at X,Y inch   1.4   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R28 at X,Y inch   1.0   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R29 at X,Y inch   1.4   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R30 at X,Y inch   1.0   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R31 at X,Y inch   1.5   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R32 at X,Y inch   1.4   1.5
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R33 at X,Y inch   0.7   0.9
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R34 at X,Y inch   0.7   1.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R35 at X,Y inch   0.7   0.9
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R36 at X,Y inch   1.0   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R37 at X,Y inch   1.0   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R38 at X,Y inch   1.3   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R39 at X,Y inch   1.3   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R40 at X,Y inch   0.7   0.8
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R41 at X,Y inch   1.0   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R42 at X,Y inch   0.7   0.9
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R43 at X,Y inch   0.9   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R44 at X,Y inch   0.9   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R45 at X,Y inch   0.7   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R46 at X,Y inch   0.7   0.8
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R47 at X,Y inch   0.7   0.8
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R48 at X,Y inch   0.9   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R49 at X,Y inch   1.7   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R50 at X,Y inch   1.7   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R52 at X,Y inch   0.7   1.1
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R51 at X,Y inch   0.7   1.2
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R53 at X,Y inch   0.7   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R54 at X,Y inch   1.0   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R55 at X,Y inch   0.7   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R56 at X,Y inch   1.2   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R57 at X,Y inch   0.7   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R58 at X,Y inch   0.7   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   TP1 at X,Y inch   1.8   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   TP2 at X,Y inch   1.7   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   TP3 at X,Y inch   1.7   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   TP4 at X,Y inch   1.2   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   TP5 at X,Y inch   1.0   1.3
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   TP6 at X,Y inch   1.3   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   TP7 at X,Y inch   0.9   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   TP8 at X,Y inch   1.0   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   TP9 at X,Y inch   1.5   1.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  TP10 at X,Y inch   1.7   1.6
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1  TP11 at X,Y inch   1.8   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    Y1 at X,Y inch   1.1   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1    Y2 at X,Y inch   1.4   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   FL9 at X,Y inch   1.7   1.4
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R14 at X,Y inch   0.8   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF  PIN1   R15 at X,Y inch   0.8   0.7
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   FL9  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R14  PIN1 at X,Y inch   0.0   0.0
+
+ PACKAGES OVERLAP; CHECK PLACEMENT OF   R15  PIN1 at X,Y inch   0.0   0.0
+
+
+ Side  Nat.conv.mm/s  combined V mm/s  
+    1        20.00       999.94
+
+
+ Side  Nat.conv.mm/s  combined V mm/s  
+    2        20.00       999.94
+
+
+ Side  Nat.conv.mm/s  combined V mm/s  
+    1        20.00       999.94
+
+
+ Side  Nat.conv.mm/s  combined V mm/s  
+    2        20.00       999.94
+
+
+ Side  Nat.conv.mm/s  combined V mm/s  
+    1        20.00       999.94
+
+
+ Side  Nat.conv.mm/s  combined V mm/s  
+    2        20.00       999.94
+
+
+ Side  Nat.conv.mm/s  combined V mm/s  
+    1        20.00       999.94
+
+
+ Side  Nat.conv.mm/s  combined V mm/s  
+    2        20.00       999.94
+
+
+
+ OUTPUT OF  BOARD ANALYSIS
+
+
+ TOTAL POWER (W) SIDE 1 =    6.27  SIDE 2 =    0.00
+
+                                       SIDE 1      SIDE 2
+ Representative EXIT AIR  T(C)         122.4       122.4
+
+             ITERATION NO.      PACKAGE T ERROR C
+                  601               0.01
+
+
+
+   Side Ref.Des. Tc(C) Tj(C)   X1  Y1(mm) Q(W)  Part Name       Tair(C)
+   0    C14      93.8  93.8  20.1  10.6  0.000               C14  27.2
+   0    C15      93.8  93.8  20.1  13.8  0.000               C15  31.3
+   0    C16      93.8  93.8  21.7  18.4  0.000               C16  56.5
+   0    C17      93.8  93.8  20.1  15.1  0.000               C17  34.9
+   0    C18      93.8  93.8  20.1  12.5  0.000               C18  27.6
+   0    C59      93.8  93.8   2.0  23.4  0.000               C59  39.0
+   0    C62      93.7  93.7  29.5  24.7  0.000               C62  37.8
+   0    C66      93.8  93.8   6.2  27.2  0.000               C66  39.5
+   0    C69      93.8  93.8   6.2  25.5  0.000               C69  37.0
+   0    C72      93.8  93.8   1.6  26.1  0.000               C72  38.1
+   0    C75      93.3  93.3  28.1  23.4  0.000               C75  28.3
+   0    C78      93.6  93.6   1.6  27.7  0.000               C78  35.8
+   0    C81      93.7  93.7   6.1  23.9  0.000               C81  39.3
+   0    C84      93.6  93.6  29.5  23.4  0.000               C84  35.9
+   0    C90      93.8  93.8  22.2  19.8  0.000               C90  55.1
+   0     U1      94.1  94.1   4.6   4.4  0.720                U1  23.9
+   0     U2      94.0  94.0  21.6   5.0  0.384                U2  21.8
+   0    IC1      94.1  94.1  10.7  22.2  0.115               IC1  38.1
+   0     C1      93.5  93.5  30.5   9.9  0.000                C1  30.0
+   0     C2      93.7  93.7  20.1  16.5  0.000                C2  29.8
+   0     C3      93.8  93.8  29.6   3.7  0.000                C3  24.4
+   0     C4      93.7  93.7   5.6  22.6  0.000                C4  41.6
+   0     C5      93.3  93.3  29.3  16.9  0.000                C5  31.2
+   0     C6      93.6  93.6  29.3  15.5  0.000                C6  35.8
+   0     C7      93.3  93.3  29.3  13.9  0.000                C7  39.4
+   0     C8      93.8  93.8  29.9  11.5  0.000                C8  40.1
+   0     C9      93.7  93.7  29.4  20.2  0.000                C9  42.8
+   0    C10      93.6  93.6  29.2  18.9  0.000               C10  29.3
+   0    C11      93.8  93.8  29.3  11.5  0.000               C11  33.6
+   0    C12      93.0  93.0  28.0   3.2  0.000               C12  22.7
+   0    C13      91.8  91.8  29.3   9.9  0.000               C13  25.8
+   0    C19      93.5  93.5  20.1   9.1  0.000               C19  22.0
+   0    C20      93.5  93.5  30.5  18.4  0.000               C20  29.3
+   0    C21      93.8  93.8  30.5  18.9  0.000               C21  35.9
+   0    C22      93.6  93.6  24.6  21.1  0.000               C22  41.5
+   0    C23      93.5  93.5  23.2  21.0  0.000               C23  41.9
+   0    C24      93.5  93.5  18.3  24.2  0.000               C24  29.8
+   0    C25      93.8  93.8  18.3  25.1  0.000               C25  43.2
+   0    C26      93.8  93.8  10.6  20.7  0.000               C26  43.8
+   0    C27      93.6  93.6  14.8  20.7  0.000               C27  39.0
+   0    C28      93.5  93.5  16.6  19.3  0.000               C28  28.1
+   0    C29      93.8  93.8  18.3  25.9  0.000               C29  47.1
+   0    C30      93.7  93.7  11.4  28.3  0.000               C30  46.3
+   0    C31      93.5  93.5   7.5  19.5  0.000               C31  31.8
+   0    C32      93.8  93.8   7.6  24.7  0.000               C32  44.2
+   0    C33      93.8  93.8  18.3  26.7  0.000               C33  49.5
+   0    C34      93.8  93.8   7.6  23.0  0.000               C34  40.6
+   0    C35      93.9  93.9   7.6  25.6  0.000               C35  40.9
+   0    C36      93.8  93.8   7.6  23.9  0.000               C36  41.0
+   0    C37      93.7  93.7   7.6  22.1  0.000               C37  31.6
+   0    C38      93.7  93.7  12.3  28.3  0.000               C38  44.8
+   0    C39      93.8  93.8  21.0  25.6  0.000               C39  32.0
+   0    C40      93.7  93.7  27.4  27.6  0.000               C40  42.0
+   0    C41      93.5  93.5  26.3  27.6  0.000               C41  36.5
+   0    C42      93.5  93.5  25.9  25.6  0.000               C42  35.5
+   0    C43      93.5  93.5  21.8  27.9  0.000               C43  34.2
+   0    C44      93.2  93.2  11.3   1.6  0.000               C44  20.0
+   0    C45      93.3  93.3  15.4   1.5  0.000               C45  20.0
+   0    C46      93.1  93.1  18.7   1.7  0.000               C46  20.0
+   0    C47      93.4  93.4  23.8   1.8  0.000               C47  20.0
+   0    C60      93.8  93.8   2.0  23.8  0.000               C60  38.9
+   0    C63      93.7  93.7  29.0  24.7  0.000               C63  30.7
+   0    C67      93.8  93.8   6.2  27.7  0.000               C67  37.9
+   0    C70      93.8  93.8   6.2  26.0  0.000               C70  45.7
+   0    C73      93.5  93.5   1.6  25.6  0.000               C73  30.9
+   0    C76      93.6  93.6  27.6  23.4  0.000               C76  40.1
+   0    C79      93.6  93.6   1.6  27.1  0.000               C79  34.4
+   0    C82      93.8  93.8   6.1  24.5  0.000               C82  43.7
+   0    C85      93.1  93.1  29.0  23.4  0.000               C85  25.6
+   0    C87      93.8  93.8   2.0  22.0  0.000               C87  41.4
+   0    C88      93.6  93.6  23.4  19.6  0.000               C88  46.1
+   0    C89      93.8  93.8  22.2  19.3  0.000               C89  51.6
+   0   C104      93.4  93.4  21.2  28.0  0.000              C104  35.7
+   0   C105      93.6  93.6  20.8  28.0  0.000              C105  40.4
+   0   C114      93.8  93.8  16.6  18.5  0.000              C114  35.1
+   0   C115      93.5  93.5  16.6  18.0  0.000              C115  27.2
+   0   C120      93.6  93.6   4.7  19.6  0.000              C120  33.0
+   0   C121      93.9  93.9   5.8  18.9  0.000              C121  42.8
+   0   C122      93.8  93.8   5.8  18.4  0.000              C122  33.3
+   0   C127      93.6  93.6  27.6  19.5  0.000              C127  39.8
+   0   C128      93.8  93.8  27.6  20.1  0.000              C128  41.3
+   0    FL1      93.7  93.7   5.5  21.8  0.000               FL1  33.1
+   0    FL2      93.8  93.8   2.6  24.4  0.000               FL2  36.9
+   0    FL3      93.5  93.5  26.9  24.9  0.000               FL3  40.4
+   0    FL4      93.5  93.5  17.2  26.8  0.000               FL4  33.3
+   0    FL5      93.7  93.7   4.7  27.7  0.000               FL5  34.1
+   0    FL6      93.8  93.8   4.7  26.1  0.000               FL6  32.1
+   0    FL7      93.7  93.7  26.7  22.4  0.000               FL7  41.8
+   0    FL8      93.8  93.8   2.6  26.1  0.000               FL8  35.0
+   0   FL10      93.6  93.6   2.6  27.7  0.000              FL10  35.6
+   0   FL11      93.6  93.6  30.2  22.4  0.000              FL11  39.1
+   0   FL12      93.7  93.7   4.7  24.4  0.000              FL12  30.4
+   0   FL13      93.5  93.5   2.6  22.7  0.000              FL13  34.8
+   0    IC2      94.0  94.0  23.0  27.5  0.016               IC2  43.1
+   0    IC3      94.0  94.0  22.4  24.4  0.024               IC3  39.8
+   0     L1      93.4  93.4  18.9  21.7  0.000                L1  26.6
+   0     L2      93.1  93.1  13.6  19.3  0.000                L2  34.0
+   0     L3      93.5  93.5  10.6  19.3  0.000                L3  31.5
+   0     R1      93.8  93.8  29.6   4.7  0.000                R1  28.9
+   0     R2      93.8  93.8  29.7   4.2  0.000                R2  31.5
+   0     R3      93.7  93.7  29.6   9.0  0.000                R3  32.9
+   0     R4      93.7  93.7  29.6   8.1  0.000                R4  28.5
+   0     R5      93.3  93.3  18.1  10.1  0.000                R5  21.8
+   0     R6      93.8  93.8  29.2  19.5  0.000                R6  32.1
+   0     R7      93.8  93.8  30.5  19.5  0.000                R7  32.8
+   0     R8      93.6  93.6  29.4  12.8  0.000                R8  34.9
+   0     R9      93.8  93.8  29.6   5.9  0.000                R9  29.8
+   0    R10      93.8  93.8  29.6   7.0  0.000               R10  35.8
+   0    R11      93.8  93.8  29.6   5.3  0.000               R11  33.2
+   0    R12      93.8  93.8  29.6   6.4  0.000               R12  34.6
+   0    R13      93.6  93.6  30.3  14.5  0.000               R13  29.1
+   0    R16      93.3  93.3  29.6   2.5  0.000               R16  20.1
+   0    R17      93.6  93.6  29.4  10.8  0.000               R17  38.9
+   0    R18      93.8  93.8   7.6  26.6  0.000               R18  41.2
+   0    R19      93.6  93.6  16.4  21.9  0.000               R19  33.4
+   0    R20      93.8  93.8  13.2  28.3  0.000               R20  45.1
+   0    R21      93.7  93.7  14.2  28.3  0.000               R21  45.8
+   0    R22      93.5  93.5  15.5  28.4  0.000               R22  32.7
+   0    R23      93.4  93.4  16.0  28.4  0.000               R23  29.8
+   0    R24      93.8  93.8  14.9  28.4  0.000               R24  46.4
+   0    R25      93.7  93.7  12.8  20.6  0.000               R25  29.9
+   0    R26      93.7  93.7   8.6  20.9  0.000               R26  32.1
+   0    R27      93.8  93.8  18.3  28.0  0.000               R27  40.8
+   0    R28      93.8  93.8   8.2  28.6  0.000               R28  48.4
+   0    R29      93.7  93.7  18.3  29.0  0.000               R29  46.2
+   0    R30      93.6  93.6   8.2  27.8  0.000               R30  38.2
+   0    R31      93.8  93.8  21.0  23.9  0.000               R31  33.0
+   0    R32      93.7  93.7  20.4  23.9  0.000               R32  32.7
+   0    R33      93.8  93.8   2.1   8.2  0.000               R33  37.4
+   0    R34      93.7  93.7   2.1   9.1  0.000               R34  41.2
+   0    R35      93.9  93.9   2.6   7.4  0.000               R35  49.6
+   0    R36      93.1  93.1   9.5   1.9  0.000               R36  20.0
+   0    R37      93.3  93.3  10.4   1.9  0.000               R37  20.0
+   0    R38      93.4  93.4  16.8   1.4  0.000               R38  20.0
+   0    R39      93.6  93.6  16.8   2.4  0.000               R39  26.9
+   0    R40      93.8  93.8   2.4   5.9  0.000               R40  25.4
+   0    R41      93.1  93.1   8.8   2.5  0.000               R41  20.1
+   0    R42      93.8  93.8   2.2   6.6  0.000               R42  31.8
+   0    R43      93.1  93.1   7.7   1.5  0.000               R43  20.0
+   0    R44      93.3  93.3   6.4   1.5  0.000               R44  20.0
+   0    R45      93.3  93.3   2.2   3.3  0.000               R45  21.0
+   0    R46      93.7  93.7   2.2   4.8  0.000               R46  26.1
+   0    R47      93.8  93.8   2.5   4.1  0.000               R47  23.4
+   0    R48      93.2  93.2   7.1   2.1  0.000               R48  20.1
+   0    R49      93.8  93.8  26.0  20.1  0.000               R49  48.9
+   0    R50      93.8  93.8  26.0  19.5  0.000               R50  49.6
+   0    R52      93.6  93.6   2.7  13.5  0.000               R52  27.7
+   0    R51      93.4  93.4   2.7  15.3  0.000               R51  26.5
+   0    R53      93.8  93.8   2.1  19.5  0.000               R53  39.0
+   0    R54      93.7  93.7   9.8  18.2  0.000               R54  34.3
+   0    R55      93.7  93.7   2.1  18.6  0.000               R55  26.4
+   0    R56      93.7  93.7  13.2  18.2  0.000               R56  35.0
+   0    R57      93.8  93.8   2.1  20.4  0.000               R57  42.8
+   0    R58      93.8  93.8   2.1  21.3  0.000               R58  46.6
+   0    TP1      93.8  93.8  29.9  17.7  0.000               TP1  31.7
+   0    TP2      93.8  93.8  26.1   2.6  0.000               TP2  20.1
+   0    TP3      93.9  93.9  25.8  21.2  0.000               TP3  42.7
+   0    TP4      93.8  93.8  14.8  18.3  0.000               TP4  34.1
+   0    TP5      93.9  93.9   8.6  18.3  0.000               TP5  34.4
+   0    TP6      93.9  93.9  16.5  25.9  0.000               TP6  32.9
+   0    TP7      93.8  93.8   6.1  21.0  0.000               TP7  34.1
+   0    TP8      93.9  93.9   9.9  28.5  0.000               TP8  30.6
+   0    TP9      93.8  93.8  20.8  27.1  0.000               TP9  33.3
+   0   TP10      93.9  93.9  26.9  26.0  0.000              TP10  55.4
+   0   TP11      93.7  93.7  28.3   1.7  0.000              TP11  20.0
+   0     Y1      93.5  93.5  12.7   1.6  0.007                Y1  20.0
+   0     Y2      93.3  93.3  20.1   1.8  0.000                Y2  20.0
+   0   PIN1      94.1  94.1   0.0  -0.0  5.005              PIN1  19.8
+   0    FL9      93.6  93.6  26.8  20.9  0.000               FL9  40.0
+   0    R14      93.3  93.3   4.4   1.5  0.000               R14  20.0
+   0    R15      93.1  93.1   5.3   1.5  0.000               R15  20.0
+   1    C48      93.8  93.8   9.1   7.9  0.000               C48  24.2
+   1    C49      93.9  93.9   8.1   8.9  0.000               C49  30.7
+   1    C50      93.9  93.9   8.6  13.4  0.000               C50  35.1
+   1    C51      93.9  93.9   7.6  10.9  0.000               C51  36.0
+   1    C52      93.9  93.9  13.1  12.4  0.000               C52  38.2
+   1    C53      93.8  93.8   8.6   7.4  0.000               C53  20.7
+   1    C54      93.9  93.9   7.6   8.4  0.000               C54  22.3
+   1    C55      93.8  93.8  10.6   7.4  0.000               C55  24.0
+   1    C56      93.8  93.8  12.1   7.3  0.000               C56  20.5
+   1    C58      93.9  93.9   9.6  13.9  0.000               C58  33.2
+   1    C61      93.9  93.9  10.6  13.4  0.000               C61  29.1
+   1    C64      93.8  93.8   7.6   6.9  0.000               C64  20.6
+   1    C65      93.9  93.9  11.1  12.4  0.000               C65  34.1
+   1    C68      93.9  93.9  11.6  13.9  0.000               C68  32.5
+   1    C71      93.9  93.9   8.6  11.9  0.000               C71  27.6
+   1    C74      93.9  93.9  11.1  14.4  0.000               C74  32.1
+   1    C77      93.9  93.9  11.6   8.9  0.000               C77  40.3
+   1    C80      93.9  93.9  10.6  10.0  0.000               C80  30.3
+   1    C83      93.8  93.8  13.1   6.4  0.000               C83  20.3
+   1    C86      93.9  93.9  12.1  13.4  0.000               C86  38.2
+   1    C91      93.9  93.9  11.1   9.4  0.000               C91  28.2
+   1    C92      93.8  93.8  10.6   8.4  0.000               C92  26.9
+   1    C93      93.9  93.9  11.1  11.4  0.000               C93  30.8
+   1    C94      93.8  93.8  14.1   7.9  0.000               C94  20.6
+   1    C95      93.8  93.8  12.6  12.9  0.000               C95  28.6
+   1    C96      93.9  93.9   8.1  11.4  0.000               C96  33.5
+   1    C97      93.9  93.9   8.6   8.9  0.000               C97  25.7
+   1    C98      93.8  93.8  11.6  12.9  0.000               C98  28.6
+   1    C99      93.9  93.9   9.1  12.9  0.000               C99  28.9
+   1   C100      93.8  93.8   9.7   9.4  0.000              C100  25.2
+   1   C102      93.9  93.9   9.6  11.4  0.000              C102  25.3
+   1   C103      93.8  93.8   8.1  12.9  0.000              C103  32.9
+   1    C57      93.8  93.8  13.1   7.9  0.000               C57  26.6
+   1   C101      93.9  93.9  12.1  10.9  0.000              C101  27.6
+   1   C106      93.9  93.9  10.1  14.4  0.000              C106  27.3
+   1   C107      93.9  93.9   8.1   9.9  0.000              C107  27.2
+   1   C108      93.8  93.8  11.1   5.9  0.000              C108  20.3
+   1   C109      93.9  93.9   7.6  12.0  0.000              C109  30.1
+   1   C110      93.8  93.8   7.1  12.5  0.000              C110  22.4
+   1   C111      93.9  93.9   9.1  14.4  0.000              C111  33.7
+   1   C112      93.8  93.8  10.1   7.4  0.000              C112  20.6
+   1   C113      93.8  93.8  11.6   7.9  0.000              C113  24.9
+   1   C116      93.9  93.9   8.1   7.9  0.000              C116  24.5
+   1   C117      93.9  93.9   7.6   9.9  0.000              C117  29.3
+   1   C118      93.8  93.8  11.6   6.4  0.000              C118  20.3
+   1   C119      93.8  93.8  13.1  11.9  0.000              C119  28.5
+   1   C123      93.9  93.9  12.1   9.9  0.000              C123  24.4
+   1   C124      93.9  93.9  13.1  10.9  0.000              C124  25.3
+   1   C125      93.8  93.8  12.1   8.9  0.000              C125  25.7
+   1   C126      93.8  93.8   9.6   6.4  0.000              C126  20.3
+   1   C129      93.9  93.9  11.1  10.3  0.000              C129  32.7
+   1   C130      93.9  93.9  10.1  11.9  0.000              C130  33.9
+   1   C131      93.9  93.9  12.1  11.9  0.000              C131  27.2
+   1   C132      93.8  93.8  11.1   8.4  0.000              C132  29.8
+   1   C133      93.9  93.9   9.1   8.9  0.000              C133  29.4
+   1   C134      93.8  93.8   8.6  10.9  0.000              C134  24.4
+   1   C135      93.8  93.8  13.6   8.4  0.000              C135  20.7
+
+
+
+ Display of Board Temperature Map, degree C. 
+
+ Total X length (mm) =  32.50 Divided into 160 meshes
+ Total Y length (mm) =  31.20 Divided into 160 meshes
+
+ Display starts at the first Y column, from bottom to top.
+ Then, next Y column at next larger X values, for all board.
+
+ X MESH =   1
+ 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7 93.7 93.7
+ X MESH =   2
+ 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7 93.7 93.7
+ X MESH =   3
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7 93.7
+ X MESH =   4
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7 93.7
+ X MESH =   5
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7 93.7
+ X MESH =   6
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7
+ X MESH =   7
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =   8
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =   9
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  10
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  11
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  12
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  13
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  14
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  15
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  16
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  17
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  18
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  19
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  20
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  21
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  22
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  23
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  24
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  25
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  26
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  27
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  28
+ 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  29
+ 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  30
+ 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  31
+ 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  32
+ 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  33
+ 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  34
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  35
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ X MESH =  36
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ X MESH =  37
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ X MESH =  38
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ X MESH =  39
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  40
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  41
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  42
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  43
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  44
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  45
+ 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  46
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  47
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  48
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  49
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  50
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  51
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  52
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  53
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  54
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  55
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  56
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  57
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  58
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  59
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  60
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  61
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  62
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  63
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  64
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ X MESH =  65
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8
+ X MESH =  66
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8
+ X MESH =  67
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8
+ X MESH =  68
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8
+ 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ X MESH =  69
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ X MESH =  70
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  71
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  72
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ X MESH =  73
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  74
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  75
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH =  76
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  77
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  78
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  79
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  80
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  81
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  82
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  83
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  84
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  85
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  86
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH =  87
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  88
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  89
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  90
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  91
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  92
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  93
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  94
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  95
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  96
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  97
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  98
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH =  99
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 100
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 101
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 102
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 103
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 104
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 105
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 106
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 107
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 108
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 109
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 110
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 111
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 112
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 113
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 114
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 115
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 116
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 117
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 118
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 119
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 120
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 121
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 122
+ 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 123
+ 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 124
+ 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 125
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 126
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 93.9 93.9
+ 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 127
+ 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 128
+ 93.7 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 129
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 130
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 131
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 132
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 133
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 134
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 135
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 136
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 137
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 138
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 139
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0 94.0
+ 94.0 94.0 94.0 94.0 94.0 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 140
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 94.0 94.0 94.0 94.0 94.0 94.0 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 141
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 142
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH = 143
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH = 144
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8
+ X MESH = 145
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 146
+ 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 147
+ 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 148
+ 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ X MESH = 149
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 150
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 151
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 152
+ 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ X MESH = 153
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7
+ X MESH = 154
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7 93.7
+ X MESH = 155
+ 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7 93.7
+ X MESH = 156
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7 93.7 93.7
+ X MESH = 157
+ 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.7 93.7 93.7
+ X MESH = 158
+ 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.7 93.7 93.7 93.7
+ X MESH = 159
+ 93.6 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.7 93.7 93.7 93.7 93.7
+ X MESH = 160
+ 93.6 93.7 93.7 93.7 93.7 93.7 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9 93.9
+ 93.9 93.9 93.9 93.9 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8 93.8
+ 93.8 93.8 93.8 93.7 93.7 93.7 93.7 93.7 93.7 93.7

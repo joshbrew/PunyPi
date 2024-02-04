@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: C:\Users\quyen.cong\Desktop\New folder (3)\02.Project Board module Am625_12h_2801_Final\02.Project Board module Am625_20h_1911\PCB\PCB MODULE AM625.PcbDoc
+RuleKind=Width|RuleName=Width Ground|Scope=Board|Minimum=3.15
+RuleKind=Width|RuleName=Width Power|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=DiffPair_DIFF90Width|Scope=Board|Minimum=3.80
+RuleKind=Width|RuleName=DiffPair_DIFF100Width|Scope=Board|Minimum=3.10
+RuleKind=Clearance|RuleName=Signal Tracks|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance Non Plated Holes|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Pad Clearance|Scope=Board|Minimum=5.91
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.15
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=2.50
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

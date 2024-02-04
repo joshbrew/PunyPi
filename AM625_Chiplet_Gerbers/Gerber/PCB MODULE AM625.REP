@@ -1,0 +1,520 @@
+*************************************************************
+FileName = PCB MODULE AM625.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 29
+      File : PCB MODULE AM625.GM29
+
+    Adding Layer      : Mechanical 29
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : PCB MODULE AM625.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : PCB MODULE AM625.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Ground Plane 2 (GND)
+      File : PCB MODULE AM625.GP2
+
+    Adding Layer      : Ground Plane 2 (GND)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D87
+    D88
+    D89
+    D90
+    D91
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : PCB MODULE AM625.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Signal Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D53
+    D59
+    D65
+    D97
+    D98
+    D99
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : PCB MODULE AM625.GPT
+
+    Adding Layer      : Signal TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D43
+    D66
+    D86
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PCB MODULE AM625.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : POWER 1
+      File : PCB MODULE AM625.G2
+
+    Adding Layer      : POWER 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D86
+    D87
+    D88
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : PCB MODULE AM625.GD1
+
+    Adding Drill Pair : Signal TOP-Signal Bottom
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D100
+    D101
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : PCB MODULE AM625.GG1
+
+    Adding Drill Pair : Signal TOP-Signal Bottom
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D100
+*************************************************************
+
+*************************************************************
+Generating : Ground Plane 1 (GND)
+      File : PCB MODULE AM625.GP1
+
+    Adding Layer      : Ground Plane 1 (GND)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D87
+    D88
+    D89
+    D90
+    D91
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : PCB MODULE AM625.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D10
+    D12
+    D13
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Signal IO 2
+      File : PCB MODULE AM625.G4
+
+    Adding Layer      : Signal IO 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D13
+    D71
+    D73
+    D86
+    D87
+    D93
+*************************************************************
+
+*************************************************************
+Generating : Signal Bottom
+      File : PCB MODULE AM625.GBL
+
+    Adding Layer      : Signal Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D12
+    D13
+    D30
+    D35
+    D67
+    D70
+    D72
+    D73
+    D75
+    D86
+    D87
+    D88
+    D94
+    D95
+    D96
+*************************************************************
+
+*************************************************************
+Generating : Signal RAM 1
+      File : PCB MODULE AM625.G1
+
+    Adding Layer      : Signal RAM 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D74
+    D86
+    D87
+    D88
+    D92
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : PCB MODULE AM625.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D12
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Signal TOP
+      File : PCB MODULE AM625.GTL
+
+    Adding Layer      : Signal TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D12
+    D13
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D43
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+*************************************************************
+
+*************************************************************
+Generating : POWER 2
+      File : PCB MODULE AM625.G5
+
+    Adding Layer      : POWER 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D86
+    D87
+    D88
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : PCB MODULE AM625.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Signal TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : PCB MODULE AM625.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Signal TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D29
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PCB MODULE AM625.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Signal IO 1
+      File : PCB MODULE AM625.G3
+
+    Adding Layer      : Signal IO 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D71
+    D73
+    D86
+    D87
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : PCB MODULE AM625.GPB
+
+    Adding Layer      : Signal Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D30
+    D35
+    D86
+    D94
+    D95
+    D96
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : PCB MODULE AM625.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Signal Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D30
+    D35
+    D94
+    D95
+    D96
+*************************************************************
+
+*************************************************************
+Generating : Signal RAM 2
+      File : PCB MODULE AM625.G6
+
+    Adding Layer      : Signal RAM 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D12
+    D74
+    D86
+    D87
+    D88
+    D92
+*************************************************************
+

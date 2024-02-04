@@ -1,0 +1,22 @@
+Record=TopLevelDocument|FileName=001_Revision History.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=002_Block Diagram.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=003_Power Tree.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=004_I2C Usage Diagram.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=005_DCDC & PMIC.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=006_SoC Power.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=007_SoC DCAPs.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=008_SoC DDR & DDR4.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=009_SoC SDIO & eMMC & SD.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=010_SoC RGMII & GBE PHY.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=011_SoC RMII & SPE PHY.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=012_SoC DDS & HDMI.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=013_SoC GPIO 3.3V.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=014_SoC GPIO 1.8V & Bootstrap.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=015_SoC USB & USB_A & USB_C.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=016_SoC Reset & MCU.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=017_SoC CSI & OLDI.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=018_RTC & ID & DEBUG.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=019_CC1352P.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=020_WiFi WL1807MOD.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=021_BUTTONs & LEDs.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=001_Revision History.SchDoc|FileName=022_GROVE &QWIIC &MikroBus &ADC.SchDoc|SheetNumber= 

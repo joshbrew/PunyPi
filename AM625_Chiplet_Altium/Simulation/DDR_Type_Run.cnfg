@@ -1,0 +1,17 @@
+[TOT_SIMUL_LENGTH] {129}
+[AMI_INPROCESS_IMPL] {1}   *** shows if AMI models work in the same solution space {1} or not {0}
+[ISI_LENGTH] {50}
+[PNTS_PER_BIT] {268}
+[BIT_INTERVAL] {6.25e-10}
+[AMI_BITS_PER_PACKAGE] {129}
+[AMI_IGNORE_BITS] {1}
+[EYE_MEDIAN] {0.844935}
+[EYE_MAGFACTOR] {1.0}
+[EYEBER_FILE_NAME_TPS] {C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Simulation\DDR_Results_Dec-3-2023_16h-35m\RCV_Waveforms_Typ\ResAMI-net-DDR_UDM-rcv-U2.E2-W1.tps}
+[RX_DLL_PARAMS_IN] {(Mentor_DDR_ControlRx (DataWaveform (DataPnt 0x00000000413D7040)(DataLength 35728)) (ClockWaveForm (ClockPnt 0x000000003F53B010)(ClockLength 35728)) (ErrorMessage (ErrMssgPnt 0x000000003C5E6E60)(ErrorMessageLength 1000))(MEDIAN_VAL 0.844935)(N_UI2SKIP 1))}
+[START_EDVIEWER] {0}
+[RX_DLL_PATH_NAME] {C:\MentorGraphics\HLVX.2.10\SDD_HOME\hyperlynx64\Rx_ForDDR.dll}
+[RX_USE_INIT_OUTPUT] {0}
+[GETWAVE_EXISTS_RX] {1}
+[STEP_RESP_FILE_NAME] {_STEP_RESPONSE_DEFAULT_}
+[IGNORE_RX_CLOCKS] {0}   ** if we set it to '1' (i.e. not use clock times) the eye becomes open **

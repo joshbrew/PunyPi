@@ -1,0 +1,71 @@
+2023-12-02 23:49:00 6524     [INFO] ****** HyperLynx VX2.10 build 19246144 
+2023-12-02 23:49:00 6524     [INFO]        C:\MentorGraphics\HLVX.2.10\SDD_HOME\hyperlynx64\BSW.EXE /dde 
+2023-12-02 23:49:00 6524     [INFO] Opening Project C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.HYP
+2023-12-02 23:49:01 6524     [INFO] Opened Board: PCB MODULE AM625.HYP <C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\>
+2023-12-02 23:50:12 6524     [INFO] Close HyperLynx Session: Design file: PCB MODULE AM625.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2023-12-02 23:50:14 6524     [INFO] Closing Design: PCB MODULE AM625.HYP
+2023-12-02 23:50:15 6524     [INFO] ****** Closing HyperLynx 
+2023-12-02 23:50:35 27740     [INFO] ****** HyperLynx VX2.10 build 19246144 
+2023-12-02 23:50:35 27740     [INFO]        C:\MentorGraphics\HLVX.2.10\SDD_HOME\hyperlynx64\BSW.EXE /dde 
+2023-12-02 23:50:35 27740     [INFO] Opening Project C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.HYP
+2023-12-02 23:50:36 27740     [INFO] Opened Board: PCB MODULE AM625.HYP <C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\>
+2023-12-02 23:52:21 27740     [INFO] Close HyperLynx Session: Design file: PCB MODULE AM625.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2023-12-02 23:52:24 27740     [INFO] Closing Design: PCB MODULE AM625.HYP
+2023-12-02 23:52:25 27740     [INFO] ****** Closing HyperLynx 
+2023-12-02 23:52:44 11312     [INFO] ****** HyperLynx VX2.10 build 19246144 
+2023-12-02 23:52:44 11312     [INFO]        C:\MentorGraphics\HLVX.2.10\SDD_HOME\hyperlynx64\BSW.EXE /dde 
+2023-12-02 23:52:44 11312     [INFO] Opening Project C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.HYP
+2023-12-02 23:52:45 11312     [INFO] Opened Board: PCB MODULE AM625.HYP <C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\>
+2023-12-02 23:53:25 11312     [INFO] Close HyperLynx Session: Design file: PCB MODULE AM625.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Cancel" button was selected
+2023-12-02 23:53:39 11312     [INFO] Close HyperLynx Session: Design file: PCB MODULE AM625.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2023-12-02 23:53:40 11312     [INFO] Closing Design: PCB MODULE AM625.HYP
+2023-12-02 23:53:41 11312     [INFO] ****** Closing HyperLynx 
+2023-12-02 23:53:51 21676     [INFO] ****** HyperLynx VX2.10 build 19246144 
+2023-12-02 23:53:51 21676     [INFO]        C:\MentorGraphics\HLVX.2.10\SDD_HOME\hyperlynx64\BSW.EXE /dde 
+2023-12-02 23:53:51 21676     [INFO] Opening Project C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.HYP
+2023-12-02 23:53:52 21676     [INFO] Opened Board: PCB MODULE AM625.HYP <C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\>
+2023-12-02 23:54:03 21676     [INFO] Close HyperLynx Session: Design file: PCB MODULE AM625.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Cancel" button was selected
+2023-12-02 23:54:16 21676     [INFO] Please select a net.
+2023-12-02 23:54:18 21676     [INFO] Please select a net.
+2023-12-02 23:54:28 21676     [INFO] This design's .HYP file was created by a PCB translator that did not record whether the physical information is sufficiently detailed for power-integrity analysis (especially metal areas and via clearances).  Most likely, the translator was an older version not upgraded for PI usage.  PI simulation may therefore produce less-accurate results.
+2023-12-02 23:55:27 21676    [ERROR] DC Engine failed: No VRMs found in power net
+2023-12-02 23:55:33 21676    [ERROR] DC Engine failed: No VRMs found in power net
+2023-12-02 23:57:11 21676     [INFO] Close HyperLynx Session: Design file: PCB MODULE AM625.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2023-12-02 23:57:12 21676     [INFO] Closing Design: PCB MODULE AM625.HYP
+2023-12-02 23:57:13 21676     [INFO] ****** Closing HyperLynx 
+2023-12-03 00:00:58 17988     [INFO] ****** HyperLynx VX2.10 build 19246144 
+2023-12-03 00:00:58 17988     [INFO]        C:\MentorGraphics\HLVX.2.10\SDD_HOME\hyperlynx64\BSW.EXE /dde 
+2023-12-03 00:00:58 17988     [INFO] Opening Project C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.HYP
+2023-12-03 00:00:58 17988     [INFO] Opened Board: PCB MODULE AM625.HYP <C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\>
+2023-12-03 00:03:53 17988     [INFO] Distance = 290.469929 mils (dX = 195.628600 mils; dY = 214.714300 mils)
+2023-12-03 00:25:15 17988  [WARNING] Warning: To analyze a power / ground net, use the power-integrity features on the Simulate PI or Export > Model menus.
+2023-12-03 00:25:17 17988  [WARNING] Warning: To analyze a power / ground net, use the power-integrity features on the Simulate PI or Export > Model menus.
+2023-12-03 00:28:52 17988  [WARNING] No driver on selected net. Choose a driver now? - The "Yes" button was selected
+2023-12-03 00:28:55 17988  [WARNING] No driver on selected net. Choose a driver now? - The "Yes" button was selected
+2023-12-03 00:28:58 17988  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2023-12-03 00:53:14 17988    [ERROR] Open file: File "C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.ref" cannot be opened Starting with new file
+2023-12-03 00:53:55 17988     [INFO] REF-File Editor: Save changes to REF file before continue?  YES: save changes NO: discard changes - The "No" button was selected
+2023-12-03 00:54:23 17988  [WARNING] No driver on selected net. Choose a driver now? - The "Yes" button was selected
+2023-12-03 00:54:26 17988  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2023-12-03 00:57:56 17988    [ERROR] Open file: File "C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.ref" cannot be opened Starting with new file
+2023-12-03 01:01:07 17988     [INFO] HyperLynx: Text not found
+2023-12-03 01:01:11 17988     [INFO] HyperLynx: Text not found
+2023-12-03 01:17:09 17988     [INFO] Generated HyperLynx IC Model Index: C:\MentorGraphics\HLVX.2.10\SDD_HOME\hyperlynx64\Libs\HyperLynxIcModels.csv
+2023-12-03 01:18:03 17988  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2023-12-03 01:20:49 17988  [WARNING] No driver on selected net. Choose a driver now? - The "Yes" button was selected
+2023-12-03 01:20:52 17988  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2023-12-03 01:25:08 17988  [WARNING] Current waveforms: Recording of buffer currents is turned off in Setup/Simulation Control. Do you want to turn it on?  (You need to rerun simulation to update current waveforms). - The "Yes" button was selected
+2023-12-03 01:25:42 17988    [ERROR] No simulation output data found. Run a simulation before attempting this command.
+2023-12-03 01:25:45 17988    [ERROR] No simulation output data found. Run a simulation before attempting this command.
+2023-12-03 01:25:48 17988    [ERROR] No simulation output data found. Run a simulation before attempting this command.
+2023-12-03 01:27:06 17988     [INFO] Close HyperLynx Session: Design file: PCB MODULE AM625.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Yes" button was selected
+2023-12-03 01:27:13 17988     [INFO] Closing Design: PCB MODULE AM625.HYP
+2023-12-03 01:27:14 17988     [INFO] ****** Closing HyperLynx 
+2023-12-03 01:27:37 15900     [INFO] ****** HyperLynx VX2.10 build 19246144 
+2023-12-03 01:27:37 15900     [INFO]        C:\MentorGraphics\HLVX.2.10\SDD_HOME\hyperlynx64\BSW.EXE /dde 
+2023-12-03 01:27:38 15900     [INFO] Opening Project C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.pjh
+2023-12-03 01:27:38 15900    [ERROR] HyperLynx: File C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.pjh is not a valid HyperLynx design. It will not be loaded.
+2023-12-03 01:27:42 15900     [INFO] Opening Project C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.HYP
+2023-12-03 01:27:42 15900    [ERROR] Error: Error opening input file C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\PCB MODULE AM625.HYP : The system cannot find the file specified.
+2023-12-03 01:27:44 15900    [ERROR] Error opening board: PCB MODULE AM625.HYP <C:\Users\quyen.cong\Desktop\New folder\02.Project Board module Am625_20h_1911\Project\>
+2023-12-03 01:27:45 15900     [INFO] ****** Closing HyperLynx 

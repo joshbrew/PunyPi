@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\quyen.cong\Desktop\New folder (3)\05.Project Board Test SOM AM625_2901\PCB\PCB SOM AM625.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_eMMC|Scope=Board|Minimum=5.91
+RuleKind=Width|RuleName=DiffPair_DIFF100Width|Scope=Board|Minimum=3.30
+RuleKind=Width|RuleName=DiffPair_DIFF90Width|Scope=Board|Minimum=3.40
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.15
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=3.15
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

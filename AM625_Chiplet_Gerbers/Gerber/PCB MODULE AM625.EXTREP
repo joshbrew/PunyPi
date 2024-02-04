@@ -1,0 +1,34 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: PCB MODULE AM625.GBR   2/3/2024  10:59:05 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Signal TOP                              
+.GP1                Ground Plane 1 (GND)                    
+.G1                 Signal RAM 1                            
+.G2                 POWER 1                                 
+.G3                 Signal IO 1                             
+.G4                 Signal IO 2                             
+.G5                 POWER 2                                 
+.G6                 Signal RAM 2                            
+.GP2                Ground Plane 2 (GND)                    
+.GBL                Signal Bottom                           
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM13               Mechanical 13                           
+.GM15               Mechanical 15                           
+.GM29               Mechanical 29                           
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------
