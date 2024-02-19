@@ -1,0 +1,3 @@
+3DX_CUI_DEVICES_Supplier: CUI Devices
+3DX_CUI_DEVICES_Description: 4 conductor 3.5 mm Surface Mount Audio Jack
+3DX_CUI_DEVICES_Model Number: SJ-43514-SMT-TR

@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\quyen.cong\Desktop\New folder (3)\05.Project Board Test SOM AM625_180224\PCB\PCB SOM AM625.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcb som am625-roundholes.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=pcb som am625-slotholes.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl

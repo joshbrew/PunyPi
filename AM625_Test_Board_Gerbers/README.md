@@ -1,0 +1,1 @@
+1.1 has a different footprint for the Micro SD card, based on supply.
