@@ -1,5 +1,7 @@
 # PunyPi (tbd)
 
+![rn_image_picker_lib_temp_c4f592c4-a881-4eb2-ad05-ee595f95a4bf](https://github.com/user-attachments/assets/2008d46d-6f1c-4ce9-9956-f5d5633f5cd7)
+
 This is a standalone chiplet design that mounts the [TI AM625](https://www.ti.com/product/AM625) CortexA53 (up to 4 cores) and up to 8Gb DDR4 RAM. This chiplet allows you to create expansion boards in any size and shape you desire, and it's fully open source! This variant of the A53 runs at a higher clock than the RPi Zero 2 and we included the RAM so it is fully capable of more intensive compute tasks. 
 
 This doesn't break out *every* feature of the AM625 but it does condense a fair amount to 30mm x 30mm on a 10 layer board. It works with standard throughole vias to help reduce PCB assembly costs. The Cortex A53 is getting older but is still one of the most popular industrial automation chips in the world and gives you good middle of the road performance - about that of a Samsung Galaxy S8 (EU edition) or Galaxy Watch 3. We're experimenting with microcomputers, servers, wearables, etc. and our best option was to design this base chiplet ourselves. 
